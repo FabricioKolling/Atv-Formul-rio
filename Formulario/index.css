@@ -1,0 +1,57 @@
+body{
+
+    margin: auto;
+    text-align: center;
+    justify-content: justify;
+    background-image: url("img/city-pixel-art-94uxial3lbd652g5.jpg") ;
+    background-size: cover;
+    font-family: fantasy;
+
+}
+
+.final{
+
+    border-radius: 20px;
+    border: solid black;
+    width: 15%;
+    height: 15%;
+    margin: auto;
+    text-align: center;
+    justify-content: justify;
+    margin-top: 15%;
+    padding: 3%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+p{
+
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+
+}
+
+.submit{
+    margin: auto;
+    margin-bottom: 5%;
+
+    text-align: center;
+    justify-content: justify;
+
+    width: 70%;
+    border: solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+    color: rgb(0, 0, 0);
+    font-size: medium;
+
+    cursor: grab;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.95);
+}
+
+.submit:hover{
+    background: rgb(120, 73, 148);
+    transform: translateX(0) scale(1.05);
+}

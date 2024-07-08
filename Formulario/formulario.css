@@ -1,0 +1,109 @@
+body{
+
+    background-image: url('https://64.media.tumblr.com/4c989428ba947bc4966e07e76d36bd28/118ec01107834a73-07/s1280x1920/fdb109b146e112c17776b4198d1fa61396b951e0.gifv');
+    font-family:'Times New Roman', Times, serif;
+    background-size: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: justify;
+
+}
+
+.formulario{
+
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+h1{
+
+    font-size: 40px;
+    border-bottom: solid rgb(202, 104, 0);
+
+}
+
+input{
+
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+
+}
+
+.input-text{
+
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.info{
+
+    margin-top: 10px;
+    display: flex;
+    font-size: 16px;
+
+}
+
+.marque{
+
+    text-align: justify;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.checkbox{
+
+    display: block;
+
+}
+
+.notificacao{
+
+    cursor: pointer;
+
+}
+
+button{
+
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+button:hover{
+
+    background-color: rgb(204, 203, 203);
+
+}
+/* 
+img{
+
+    position: relative;
+    top: 290px;
+    left: 651px;
+    width: 300px;
+    transition: transforme 1s;
+    transform: translateX(0) scale(0.95);
+
+}
+
+img:hover{
+
+    transform: translateX(-400px) scale(2);
+
+} */
